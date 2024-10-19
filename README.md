@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://camryntidsworth.github.io/blog-preview-card/)
+- Live Site URL: [here](https://camryntidsworth.github.io/blog-preview-card/)
 
 ## My process
 
