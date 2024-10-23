@@ -25,8 +25,9 @@ main {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 369px;
+    width: 280px;
     height: 550px;
+    margin: 5rem;
     background-color: white;
     padding: 25px;
     border: 1.5px solid var(--dark-gray);
@@ -62,7 +63,7 @@ button:hover {
 
 h1 {
     font-weight: 800;
-    font-size: 22px;
+    font-size: clamp(4rem 22px 6rem);
 }
 
 h1:hover {
@@ -72,19 +73,20 @@ h1:hover {
 
 .date {
     font-weight: 500;
-    font-size: 14px;
+    font-size: clamp(2rem 14px 4rem);
 }
 
 .description {
     font-weight: 500;
     color: var(--light-gray);
     line-height: 1.8;
+    font-size: clamp(2rem 14px 4rem);
 }
 
 .profile-container {
     display: flex;
     font-weight: 800;
-    width: 369px;
+    width: 280px;
     justify-content: flex-start;
 }
 
